@@ -1,4 +1,4 @@
-package nl.cbos;
+package nl.cbos.monitoringbuddy;
 
 import jakarta.annotation.PostConstruct;
 import jakarta.enterprise.context.ApplicationScoped;

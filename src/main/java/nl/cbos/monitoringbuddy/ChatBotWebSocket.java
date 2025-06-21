@@ -1,4 +1,4 @@
-package nl.cbos;
+package nl.cbos.monitoringbuddy;
 
 import io.quarkus.websockets.next.OnOpen;
 import io.quarkus.websockets.next.OnTextMessage;
