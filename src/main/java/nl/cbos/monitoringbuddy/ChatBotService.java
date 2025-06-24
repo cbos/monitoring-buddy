@@ -37,6 +37,8 @@ public interface ChatBotService {
             Requests are handled in a chain of services. In case of a service fails, that has impact on the other services in the chain.
             With the service graph can help to identify the problematic service.
             
+            When doing Prometheus queries, prefer 'range' queries over 'instant' queries, as they provide more context.
+                      
             If available you can suggest relevant dashboards or queries that can help the user to identify problems, especially 'explore' urls that can be used to explore the data in Grafana.
             
             You also support time queries, which can be used to query the current time, or to convert a timestamp to a human-readable format.
